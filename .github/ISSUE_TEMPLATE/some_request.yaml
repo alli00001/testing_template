@@ -5,6 +5,11 @@ title: 'Please Provide Version'
 labels: 'this is a label'
 assignees: 'me'
 
+
+
+    
+
+
 body:
 - type: markdown
   attributes:
@@ -16,10 +21,6 @@ body:
     placeholder: this is a placeholder
   validations :
     required: true
-    
-
-
-body:
 - type: dropdown
   attributes:
     description : Assign people to accept it. Ment
