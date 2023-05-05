@@ -1,7 +1,7 @@
 
 name: new AP Request
 description: just testing template
-title: 'this is a title'
+title: 'Please Provide Version'
 labels: 'this is a label'
 assignees: 'me'
 
@@ -17,6 +17,8 @@ body:
   validations :
     required: true
     
+
+
 body:
 - type: dropdown
   attributes:
@@ -30,7 +32,6 @@ body:
       - Someone
   validations:
     required: true
-body:
 - type: checkboxes
   id: cat-preferences
   attributes:
