@@ -1,15 +1,17 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: new AP Request
+description: just testing template
 title: ''
 labels: ''
 assignees: ''
 
-body :
--type : markdown
-    attributes :
-        label : What happen
-        description : nothing i guess
-        placeholder : what is placeholder
-    validations :
-        required : true
+body:
+- type: markdown
+  attributes:
+- type : textarea
+  attributes:
+    label: this is a label
+    description: this is a description 
+    placeholder: this is a placeholder
+  validations :
+    required: true
