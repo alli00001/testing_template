@@ -16,3 +16,35 @@ body:
     placeholder: this is a placeholder
   validations :
     required: true
+    
+body:
+- type: dropdown
+  attributes:
+    description : Assign people to accept it. Ment
+    label: Assignee
+    options:
+      - type : textarea 
+        attributes :
+          label : mention the name
+      - You
+      - Someone
+  validations:
+    required: true
+body:
+- type: checkboxes
+  id: cat-preferences
+  attributes:
+    label: Legal Quesitons
+    options:
+      - label: Does it contain cockroaches?
+        required: true
+      - label: Does it contain rats?
+        required: true
+        - label: Does it contain bugs?
+        required: true
+        - label: Does it contain bees?
+        required: true
+        - label: Does it contain worms?
+        required: true
+        
+
