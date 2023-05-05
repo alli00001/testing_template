@@ -40,11 +40,11 @@ body:
         required: true
       - label: Does it contain rats?
         required: true
-        - label: Does it contain bugs?
+      - label: Does it contain bugs?
         required: true
-        - label: Does it contain bees?
+      - label: Does it contain bees?
         required: true
-        - label: Does it contain worms?
+      - label: Does it contain worms?
         required: true
         
 
