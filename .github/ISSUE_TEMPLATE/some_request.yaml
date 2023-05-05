@@ -1,9 +1,9 @@
 ---
 name: new AP Request
 description: just testing template
-title: ''
-labels: ''
-assignees: ''
+title: 'this is a title'
+labels: 'this is a label'
+assignees: 'me'
 
 body:
 - type: markdown
