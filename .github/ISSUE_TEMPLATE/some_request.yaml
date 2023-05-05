@@ -8,6 +8,7 @@ assignees: 'me'
 body:
 - type: markdown
   attributes:
+    value : "this is a value"
 - type : textarea
   attributes:
     label: this is a label
